@@ -1,1 +1,1 @@
-# samples-android-emdk
+ProfileDataCaptureSample1-Java
