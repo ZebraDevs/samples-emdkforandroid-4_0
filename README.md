@@ -1,1 +1,1 @@
-# samples-android-emdk
+PersonalShopperSample1
