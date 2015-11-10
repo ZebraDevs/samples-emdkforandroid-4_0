@@ -1,1 +1,1 @@
-# samples-android-emdk
+SecureNFCSample1
