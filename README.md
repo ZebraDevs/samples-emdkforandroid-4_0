@@ -1,1 +1,2 @@
-# samples-android-emdk
+ProfileAppMgrSample1
+
