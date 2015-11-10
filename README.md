@@ -1,1 +1,1 @@
-# samples-android-emdk
+ProfilePowerMgrSample1
