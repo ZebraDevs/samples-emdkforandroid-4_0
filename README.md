@@ -1,1 +1,2 @@
-# samples-android-emdk
+#samples-emdkforandroid-4_0
+
