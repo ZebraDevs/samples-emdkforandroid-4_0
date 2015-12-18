@@ -1,7 +1,8 @@
 /*
-* Copyright (C) 2014-2015 Symbol Technologies LLC
+* Copyright (C) 2015 Symbol Technologies LLC
 * All rights reserved.
 */
+
 package com.symbol.profilepowermgrsample1;
 
 import java.io.StringReader;
