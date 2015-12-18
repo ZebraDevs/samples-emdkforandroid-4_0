@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PD40FWUpdateSample</string>
+    <string name="app_title">PD40 Firmware Update Sample</string>
+
+    <string-array name="type">
+        <item>Query PD40 Info</item>
+        <item>Update PD40 Firmware</item>
+    </string-array>
+
+    <string name="upgrade_only">Upgrade Only</string>
+    <string name="selectrq">Select Request:</string>
+    <string name="run">Run</string>
+    <string name="status">Status :</string>
+    <string name="dv_addr">PD40 Address:</string>
+    <string name="macaddr_hint">Enter PD40 MAC addresses or BT names separated by |</string>
+    <string name="bl_hint">Query PD40 Battery Level</string>
+    <string name="fw_hint">Query PD40 FW Version</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="path_tv"> PD40 software location on mobile device:</string>
+    <string name="path_hint">Enter PD40 software location on mobile device. Ex: /sdcard/D180_F1.09_A1.2.0.bin</string>
+    <string name="chkboc_hint">  [If upgrade only is checked, upgrading of lower or same version of software is not allowed.]</string>
+
+    <color name= "grey">#60686C</color>
+    <string-array name="download_type">
+        <item>FIRMWARE</item>
+        <item>EMVPARAM</item>
+    </string-array>
+        <string name="browse">Browse</string>
+        <string name="select_device">Select Device</string>
+        <string name="list_paired_devices">Select Devices</string>
+
+</resources>
