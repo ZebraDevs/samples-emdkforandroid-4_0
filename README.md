@@ -1,2 +1,1 @@
-#samples-emdkforandroid-4_0
-
+PaymentSample1

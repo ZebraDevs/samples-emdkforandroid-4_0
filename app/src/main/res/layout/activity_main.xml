@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="20dp"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonEnable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enable" />
+
+            <Button
+                android:id="@+id/buttonDisable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/disable" />
+
+            <Button
+                android:id="@+id/buttonTransaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/transaction" />
+        </LinearLayout>
+
+   		 
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 
+ 	<ScrollView
+ 	    android:id="@+id/scrollView1"
+ 	    android:layout_width="293dp"
+ 	    android:layout_height="278dp"
+ 	    android:scrollbarAlwaysDrawVerticalTrack="true"
+ 	    android:scrollbarSize="20dp"
+ 	    android:scrollbars="vertical"
+ 	    android:verticalScrollbarPosition="right"
+ 	    android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/textViewStatusData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/statusdata" />
+        
+    </ScrollView>
+    </LinearLayout>
+    
+ </LinearLayout>
