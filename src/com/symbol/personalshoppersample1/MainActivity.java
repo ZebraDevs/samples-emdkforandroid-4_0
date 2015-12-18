@@ -1,3 +1,7 @@
+/*
+* Copyright (C) 2015 Symbol Technologies LLC
+* All rights reserved.
+*/
 package com.symbol.personalshoppersample1;
 
 import android.app.Activity;
